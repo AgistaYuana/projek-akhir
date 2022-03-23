@@ -1,1 +1,84 @@
+// // contoh 1: deklarasi fungsi dengan nama greet()
+// function greet() {
+//   console.log("Hello, world!");
+// }
 
+// // pemanggilan fungsi
+// greet();
+
+// function greet() {
+//   console.log("Hello, world!");
+// }
+
+// function welcome() {
+//   console.log("Welcome to JS function");
+// }
+
+// function callGreeting() {
+//   greet();
+//   welcome();
+// }
+
+// callGreeting();
+
+// // contoh 2: fungsi dengan parameter untuk menampilkan teks
+
+// function showMessage(from, text) {
+//   // parameters: from, text
+//   console.log(from + ": " + text);
+// }
+
+// showMessage("Andi", "Halo!"); // result: 'Andi: Halo!'
+// showMessage("Budi", "Apa kabar?"); // result: 'Budi: Apa kabar?'
+
+// contoh 3
+
+// function multiply(a, b) {
+//   console.log(a * b);
+// }
+
+// // pemanggilan fungsi
+// multiply(3, 4);
+// multiply(2, 9);
+
+// // contoh 4
+// function showMessage(from, text = "Apa kabar?") {
+//   console.log(from + ": " + text);
+// }
+
+// showMessage("Andi"); // result: 'Andi: Apa kabar?'
+
+// contoh 5
+// function sum(a, b) {
+//   return a + b;
+// }
+
+// let result = sum(1, 2);
+// console.log(result); // result: 3
+
+// contoh 6
+// function checkAge(age) {
+//   if (age >= 18) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// let age = 18;
+// if (checkAge(age)) {
+//   console.log("Access granted");
+// } else {
+//   console.log("Access denied");
+// }
+
+// contoh 7
+// menggunakan fungsi checkAge di atas
+
+function showJob(age) {
+  if (checkAge(age)) {
+    return;
+  }
+
+  console.log("Showing you the job list");
+}
